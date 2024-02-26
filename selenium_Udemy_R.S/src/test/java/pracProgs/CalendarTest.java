@@ -17,9 +17,9 @@ public class CalendarTest
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		
-		String date = "15";
-		String month = "6";
-		String year = "2024";
+//		String date = "15";
+//		String month = "6";
+//		String year = "2024";
 		
 		
 		driver.findElement(By.xpath("//a[text()='Top Deals']")).click();
